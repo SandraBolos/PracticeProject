@@ -1,0 +1,23 @@
+body{
+    background-color:lightcoral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container
+{
+    max-width:1170px;
+    margin: 0auto;
+}
+
+outerdiv
+{
+text-align: left;
+
+font-style: oblique;
+}
+
+.profilepic
+{
+height: 50%;
+width:auto;
+}
