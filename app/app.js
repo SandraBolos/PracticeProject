@@ -1,3 +1,9 @@
+/* app.js
+Sandra Bolos
+301260176
+02/09/2023 */
+
+
 import express from 'express';
 import cookieParser from 'cookie-parser';
 import logger from 'morgan';
@@ -36,6 +42,12 @@ app.use(session({
 }));
 app.use('/',indexRouter);
 
+app.use(function(req, res, next) {
+    res.locals.success_msg = req.flash('success_msg');
+    res.locals.error_msg = req.flash('error_msg');
+    res.locals.error = req.flash('error');
+    next();
+  });
 export default app;
 
 app.listen(3000, () =>{console.log("running on 3000");

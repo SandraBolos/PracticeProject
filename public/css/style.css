@@ -1,23 +1,84 @@
+/* style.css
+Sandra Bolos
+301260176
+02/09/2023 */
+
 body{
-    background-color:lightcoral;
+    background-color:rgb(241, 219, 219);
+    padding: 20p;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.logo{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: visible;
+    margin-top: 6px;
+}
+.missioncontainer
+{
+    max-width:500px;
+    margin: auto;
+    text-align: center;
+}
+.missionbox
+
+{
+    text-decoration:none;
+    position: relative;
+     font-size:15pt;
+    color:gray;
+
+   }
 
 .container
 {
     max-width:1170px;
-    margin: 0auto;
+    margin: auto;
 }
 
-outerdiv
+.aboutdiv
 {
-text-align: left;
+    max-width:auto;
+    margin: auto;
+    text-align: center;
+    color:black;
 
-font-style: oblique;
+}
+.inneraboutdiv
+{
+    
+    margin: auto;
+     color:gray;
+    font-size:15pt;
+
 }
 
 .profilepic
 {
-height: 50%;
+height: 25pc;
 width:auto;
+position: static;
+align-items: flex-start;
 }
+
+.Contact 
+{
+  
+    text-align: center;
+    margin: auto;
+    color:gray;
+   font-size:15px;
+
+    
+    
+}
+.formContainer
+{
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+    color:gray;
+   font-size:15px;
+}
+    
