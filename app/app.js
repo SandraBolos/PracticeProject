@@ -20,12 +20,12 @@ import { Secret } from '../config/index.js';
 import indexRouter from '../app/routes/index.js';
 const app = express();
 
-//
+
 app.set('views', path.join(__dirname, '/views'));
 app.set('view engine', 'ejs');
 app.use(express.static('public'))
 app.use('/css',express.static(__dirname +'public/css'))
-app.use('/js',express.static(__dirname +'public/js'))
+app.use('/pdf',express.static(__dirname +'public/pdf'))
 app.use('/imgages',express.static(__dirname +'public/images'))
 
 
